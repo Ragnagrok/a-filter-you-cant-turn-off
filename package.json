@@ -1,0 +1,10 @@
+{
+  "name": "un-filtro-que-no-se-puede-apagar",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "eslint": "10.13.0",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.71.2"
+  }
+}
