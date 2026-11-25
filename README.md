@@ -107,6 +107,6 @@ ok   run: node cases/4-forced-conversion/escape.ts -> label: undefined
 ## Further reading
 
 - Hughes (1989), [*Why Functional Programming Matters*](https://doi.org/10.1093/comjnl/32.2.98): generate the infinite and prune it, the primes one-liner.
-- Jung, Jourdan, Krebbers and Dreyer (2018), [*RustBelt*](https://doi.org/10.1145/3158154): a proof that Rust's type system guarantees what it promises, even with `unsafe` blocks that keep their contract.
+- Jung, Jourdan, Krebbers and Dreyer (2018), [*RustBelt*](https://doi.org/10.1145/3158154): a proof, for a formal model of a realistic subset of Rust, that its type system guarantees what it promises, even with `unsafe` blocks that keep their contract.
 - Qin, Chen, Yu, Song and Zhang (2020), [*Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs*](https://doi.org/10.1145/3385412.3386036): all the memory bugs went through `unsafe`.
 - Vander Stoep (2025), [*Rust in Android: move fast and fix things*](https://blog.google/security/rust-in-android-move-fast-fix-things/).
