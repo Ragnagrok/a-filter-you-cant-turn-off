@@ -46,7 +46,7 @@ How to read it, against the article:
   about the forgotten case: that needs `-W` or `-Wall` (which `cabal init` turns on), and turning
   it into an error needs `-Werror`. Its back doors (`unsafePerformIO`, `unsafeCoerce`) are closed
   by Safe Haskell.
-- **TypeScript** without `--strict` lets three of the four through without a word. `--strict`
+- **TypeScript** without `--strict` lets all four through without a word. `--strict`
   catches 1 and 2, but `!` and `as` go through it, and the forced conversion doesn't stop at run
   time: it prints `label: undefined` and carries on. A linter closes all of that, if someone
   decides to configure it and keep it configured.
